@@ -1,0 +1,9 @@
+.main-navigation {
+  position: relative;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+
+  color: #000000;
+  background-color: #ffffff;
+}

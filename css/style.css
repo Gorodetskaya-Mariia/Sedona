@@ -1,0 +1,18 @@
+@import url("globals.css");
+@import url("fonts.css");
+@import url("container.css");
+@import url("visually-hidden.css");
+@import url("../main-navigation/main-navigation.css");
+@import url("../main-navigation/logo/logo.css");
+@import url("../main-navigation/site-navigation/site-navigation.css");
+@import url("../features/features.css");
+
+@import url("../footer-social/footer-social.css");
+@import url("../footer-social/social-buttons/social-buttons.css");
+@import url("../footer-social/social-buttons/social-button/social-button.css");
+@import url("../footer-social/copyrights.css");
+@import url("../map/map.css");
+
+.main-header {
+  margin-bottom: 75px;
+}

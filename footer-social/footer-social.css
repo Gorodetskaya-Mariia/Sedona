@@ -1,0 +1,22 @@
+.footer-social {
+  /* position: relative;
+  bottom: 50px; */
+  /* left: 0; */
+  display: flex;
+  justify-content: space-around;
+
+  padding-top: 36px;
+  padding-bottom: 36px;
+
+  background-color: #fcfcfb;
+}
+.footer-social p {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+
+  margin: auto 0;
+  margin-right: 35px;
+  margin-left: 23px;
+  padding: 0;
+}
