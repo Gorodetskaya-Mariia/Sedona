@@ -5,7 +5,9 @@
 @import url("../main-navigation/main-navigation.css");
 @import url("../main-navigation/logo/logo.css");
 @import url("../main-navigation/site-navigation/site-navigation.css");
+@import url("../main-img/main-img.css");
 @import url("../features/features.css");
+@import url("../search-hotels/search-hotels.css");
 
 @import url("../footer-social/footer-social.css");
 @import url("../footer-social/social-buttons/social-buttons.css");

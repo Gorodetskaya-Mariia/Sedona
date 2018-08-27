@@ -22,3 +22,18 @@ p {
   font-size: 16px;
   line-height: 24px;
 }
+.button {
+  display: inline-block;
+  box-sizing: border-box;
+  min-width: 110px;
+  max-width: 568px;
+  padding: 16px 10px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  color: #ffffff;
+  background-color: #766357;
+}
