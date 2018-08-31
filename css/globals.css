@@ -10,6 +10,7 @@ body {
 
   color: #000000;
   background-color: #f2f2f2;
+
 }
 img {
   max-width: 100%;
@@ -36,4 +37,10 @@ p {
 
   color: #ffffff;
   background-color: #766357;
+  border: 0;
 }
+/* .page {
+  width: 1200px;
+
+  box-shadow: 0 0 60px -5px rgba(0,0,0, 0.2);
+} */

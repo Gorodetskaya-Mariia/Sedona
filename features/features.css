@@ -1,6 +1,8 @@
 .features {
   display: flex;
   flex-direction: column;
+  background-color: #ffffff;
+  padding-top: 56px;
 }
 .features__heading {
   max-width: 450px;

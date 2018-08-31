@@ -30,9 +30,12 @@
   </header>
 
   <main class="container">
-    <!-- <div class="main-img">
-      <img src="main-img/promo.jpg" width="1200" height="773">
-    </div> -->
+    <section class="content">
+        <h1 class="visually-hidden">Welcome to the gorgeous Sedona!</h1>
+        <q class="visually-hidden">Because the Grand Canyon sucks!</q>
+        <img class="content__image" src="content/content__image/welcome.png" width="458" height="352" alt="Sedona">
+        <img class="content__image-saw" src="content/content__image-saw/saw.png" width="1200" height="57" alt="saw">
+    </section>
     <section class="features">
       <h2 class="features__heading">Седона &mdash; небольшой городок в аризоне, заслуживающий большего!</h2>
       <p class="features__subtitle">Рассмотрим пять причин, по которым седона круче, чем гранд каньон</p>
@@ -154,7 +157,29 @@
         </div>
     </div>
   </footer>
+  <section class="modal-search-hotels">
+        <h2 class="visually-hidden">Поиск гостиницы в Седоне</h2>
+        <div class="search-hotels--wrapper">
+          <label class="search-hotels__label" for="date-arrival">Дата заезда:</label>
+    			<input class="search-hotels__input" type="date" name="arrival" id="date-arrival" value="24-04-2017">
+        </div>
+        <div class="search-hotels--wrapper">
+    			<label class="search-hotels__label" for="date-departure">Дата выезда:</label>
+    			<input class="search-hotels__input" type="date" name="departure" id="date-departure" placeholder="4 июля 2017">
+        </div>
+			<div class="search-hotels__numbers">
+        <button class="search-hotels__number-switch-minus search-hotels__number-switch-minus--adults" type="button"></button>
+        <label class="search-hotels__label" for="number-adult">Взрослые:</label>
+  			<input class="search-hotels__input search-hotels__input--numbers" type="number" name="adults" id="number-adult" value="2">
+        <button class="search-hotels__number-switch-plus search-hotels__number-switch-plus--adults" type="button"></button>
 
+        <button class="search-hotels__number-switch-minus search-hotels__number-switch-minus--child" type="button"></button>
+  			<label class="search-hotels__label" for="number-child">Дети:</label>
+  			<input class="search-hotels__input search-hotels__input--numbers" type="number" name="childs" id="number-child" value="0">
+        <button class="search-hotels__number-switch-plus search-hotels__number-switch-plus--child" type="button"></button>
+      </div>
+			<button class="button button--search-hotels" type="submit">Найти</button>
+    </section>
 
 </body>
 </html>

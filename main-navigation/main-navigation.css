@@ -4,11 +4,7 @@
   line-height: 26px;
   font-weight: 700;
 
-  margin-bottom: 566px;
-
   color: #000000;
   background-color: #ffffff;
-  background-image: url("../main-img/main-img.jpg");
-  background-position: top center;
-  background-repeat: no-repeat;
+  box-shadow: 0 0 60px -5px rgba(0,0,0, 0.2);
 }
