@@ -1,0 +1,22 @@
+.search-hotels__number-switch-plus--child {
+  top: 190px;
+  left: 474px;
+}
+
+
+.search-hotels__number-switch-plus--child::before,
+.search-hotels__number-switch-plus--child::after {
+  position: absolute;
+  content: "";
+  top: 45%;
+  left: -63px;
+
+  width: 12px;
+  height: 3px;
+
+  background-color: #a9a9a9;
+}
+
+.search-hotels__number-switch-plus--child::after {
+  left: 12px;
+}

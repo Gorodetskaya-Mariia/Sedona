@@ -1,0 +1,6 @@
+.search-hotels__numbers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 26px;
+}

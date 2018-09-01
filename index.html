@@ -22,7 +22,7 @@
                 </ul>
                 <ul class="site-navigation-right">
                     <li><a href="#">Карта штата</a></li>
-                    <li><a href="sedona-hotels.html">Гостиницы</a></li>
+                    <li><a href="hotels.html">Гостиницы</a></li>
                 </ul>
             </div>
         </nav>
@@ -120,7 +120,7 @@
 
   <footer class="main-footer">
     <div class="container">
-        <div class="footer-social">
+        <div class="footer-social footer-social--main">
           <p class="footer-social__text">#Visitsedona</p>
           <ul class="social-buttons">
             <li>
@@ -161,25 +161,30 @@
         <h2 class="visually-hidden">Поиск гостиницы в Седоне</h2>
         <div class="search-hotels--wrapper">
           <label class="search-hotels__label" for="date-arrival">Дата заезда:</label>
-    			<input class="search-hotels__input" type="date" name="arrival" id="date-arrival" value="24-04-2017">
+    			<input class="search-hotels__input" type="text" onfocus="(this.type='date')"
+           onblur="(this.type='text')" name="arrival" id="date-arrival" placeholder="24 Апреля 2017">
         </div>
         <div class="search-hotels--wrapper">
-    			<label class="search-hotels__label" for="date-departure">Дата выезда:</label>
-    			<input class="search-hotels__input" type="date" name="departure" id="date-departure" placeholder="4 июля 2017">
+    			<label class="search-hotels__label search-hotels__label--second" for="date-departure">Дата выезда:</label>
+    			<input class="search-hotels__input" type="text" onfocus="(this.type='date')"
+           onblur="(this.type='text')" name="departure" id="date-departure" placeholder="4 Июля 2017">
         </div>
 			<div class="search-hotels__numbers">
-        <button class="search-hotels__number-switch-minus search-hotels__number-switch-minus--adults" type="button"></button>
-        <label class="search-hotels__label" for="number-adult">Взрослые:</label>
-  			<input class="search-hotels__input search-hotels__input--numbers" type="number" name="adults" id="number-adult" value="2">
-        <button class="search-hotels__number-switch-plus search-hotels__number-switch-plus--adults" type="button"></button>
-
-        <button class="search-hotels__number-switch-minus search-hotels__number-switch-minus--child" type="button"></button>
-  			<label class="search-hotels__label" for="number-child">Дети:</label>
-  			<input class="search-hotels__input search-hotels__input--numbers" type="number" name="childs" id="number-child" value="0">
-        <button class="search-hotels__number-switch-plus search-hotels__number-switch-plus--child" type="button"></button>
+        <div class="search-hotels--wrapper">
+          <button class="search-hotels__number-switch-minus search-hotels__number-switch-minus--adults" type="button"></button>
+          <label class="search-hotels__label" for="number-adult">Взрослые:</label>
+    			<input class="search-hotels__input search-hotels__input--numbers" type="number" name="adults" id="number-adult" placeholder="2">
+          <button class="search-hotels__number-switch-plus search-hotels__number-switch-plus--adults" type="button"></button>
+        </div>
+        <div class="search-hotels--wrapper">
+          <button class="search-hotels__number-switch-minus search-hotels__number-switch-minus--child" type="button"></button>
+    			<label class="search-hotels__label" for="number-child">Дети:</label>
+    			<input class="search-hotels__input search-hotels__input--numbers search-hotels__input--numbers_second" type="number" name="childs" id="number-child" placeholder="0">
+          <button class="search-hotels__number-switch-plus search-hotels__number-switch-plus--child" type="button"></button>
+        </div>
       </div>
 			<button class="button button--search-hotels" type="submit">Найти</button>
     </section>
-
+    <script src="scripts/main.js"></script>
 </body>
 </html>

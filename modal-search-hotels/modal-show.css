@@ -1,0 +1,13 @@
+.modal-show {
+  display: block;
+
+  animation: bounce 0.2s;
+}
+
+@keyframes bounce {
+  0% { transform: translateY(-100px);}
+  30% { transform: translateY(-70px);}
+  70% { transform: translateY(-50px);}
+  90% { transform: translateY(-30px);}
+  100% { transform: translateY(0);}
+}
