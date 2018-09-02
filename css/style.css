@@ -144,7 +144,7 @@
   padding-left: 73px;
 
   background-color: #ffffff;
-  border: 1px solid red;
+  border-bottom: 1px solid #e5e5e5;
 }
 .hotels__image {
   width: 135px;
@@ -153,56 +153,92 @@
 }
 .hotels__name {
   margin: 0;
-  margin-bottom: 0px;
+  margin-bottom: 7px;
   padding: 0;
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
 }
-
-/* .hotels__info {
+.hotels__name:hover,
+.hotels__name:focus {
+  color: #81b3d2;
+}
+.hotels__name:active {
+  color: #b2b2b2;
+}
+.hotels__info {
   margin: 0;
+  margin-top: -5px;
   padding: 0;
 
-} */
+}
 .hotel__info {
   display: flex;
 
   margin: 0;
-  margin-bottom: 15px;
+  margin-bottom: 14px;
   padding: 0;
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
   color: #333333;
 }
-
+.hotels__type {
+  width: 116px;
+}
+.hotels__price {
+  margin: 0;
+  padding: 0;
+}
 .hotels__rate {
   margin-left: auto;
-  border: 1px solid red;
+
 }
 .button--hotels__info {
   width: 110px;
-  padding-top: 6px;
-  padding-bottom: 4px;
+  margin: 0;
+  padding-top: 3px;
+  padding-bottom: 3px;
 
   background-color: #81b3d2;
 }
+.button--hotels__info:hover,
+.button--hotels__info:focus {
+  background-color: #669ec0;
+}
+.button--hotels__info:active {
+  background-color: #5496bd;
+  color: #88b6d1;
+}
 .button--hotels__book {
-  width: 142px;
-  padding-top: 6px;
-  padding-bottom: 4px;
+  width: 144px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.button--hotels__book:hover,
+.button--hotels__book:focus {
+  background-color: #604e43;
+}
+.button--hotels__book:active {
+  background-color: #503e33;
+  color: #695950;
 }
 .hotels__stars {
   display: flex;
-
+  justify-content: flex-end;
   list-style: none;
   margin: 0;
-  margin-bottom: 47px;
+  margin-top: 0px;
+  margin-right: -2px;
+  margin-bottom: 44px;
   padding: 0;
+  /* padding-left: 21px; */
+    /* border: 1px solid red; */
 }
 .hotels__star {
-  margin-right: 12px;
+  margin: 0;
+  padding: 0;
+  margin-right: 4px;
 }
 .hotels__star:nth-child(4){
   margin-right: 0;
@@ -210,4 +246,238 @@
 .hotels__rate-text {
   font-size: 14px;
   line-height: 21px;
+
+  margin: 0;
+  margin-top: -27px;
+  padding: 0;
+  padding-left: 16px;
+
+  color: #666666;
 }
+.hotels__rate-backg {
+  width: 110px;
+  height: 27px;
+}
+.filter__item {
+  width: 245px;
+  margin: 0;
+  margin-right: 10px;
+  padding: 0;
+  border: none;
+  }
+  .filter {
+    display: flex;
+  }
+  .filters {
+
+    padding-top: 27px;
+    padding-right: 73px;
+    padding-bottom: 8px;
+    padding-left: 70px;
+
+    background-size: 100% 220%;
+    background-image: url("../filter-background.jpg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+  }
+
+  .filter__item-heading {
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 26px;
+    color: #ffffff;
+  }
+  .filter__list {
+    list-style: none;
+
+    margin: 0;
+    padding: 0;
+  }
+  .button--filter {
+    width: 136px;
+    margin-left: 85px;
+    padding-top: 6px;
+    padding-right: 35px;
+    padding-bottom: 6px;
+    padding-left: 35px;
+    background: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+  }
+  .button--filter:hover,
+  .button--filter:focus {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  .filter-option {
+    margin-bottom: 24px;
+    padding-left: 42px;
+  }
+  .filter__name {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    user-select: none;
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+  }
+
+  .filter-input-checkbox + .filter__name::after {
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    background-image: url("../checkbox-off.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+
+    left: -43px;
+    top: -2px;
+  }
+  .filter-input-checkbox:checked + .filter__name::after {
+    content: "";
+    position: absolute;
+    width: 27px;
+    height: 23px;
+
+    top: -2px;
+    left: -43px;
+    border: 0;
+    background-image: url("../checkbox-on.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+  }
+  .filter-input:disabled + .filter__name::after {
+
+    content: "";
+    position: absolute;
+    width: 27px;
+    height: 23px;
+
+    top: -2px;
+    left: -43px;
+    border: 0;
+    background-image: url("../checkbox-on-dis.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+  }
+  .filter-input-checkbox + .filter__name:hover::before,
+  .filter-input-checkbox + .filter__name:focus::before,
+  .filter-input-checkbox + .filter__name:hover::after,
+  .filter-input-checkbox + .filter__name:focus::after {
+    opacity: 1;
+  }
+  .filter__item--price {
+    width: 316px;
+    margin-left: auto;
+    margin-right: 0;
+
+  }
+  .filter__item-heading--price {
+    margin-bottom: 9px;
+  }
+  .range-filter {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .range-controls {
+    position: relative;
+    height: 20px;
+    margin-bottom: 16px;
+
+    background: transparent;
+  }
+  .range-controls .scale {
+    height: 2px;
+    background: #918381;
+  }
+  .range-controls .bar {
+    width: 85%;
+    height: 2px;
+    background: #ffffff;
+  }
+  .range-controls .toggle {
+    position: absolute;
+    top: -7px;
+    left: 0;
+    width: 4px;
+    height: 4px;
+    padding: 0;
+    border: 8px solid #ffffff;
+    background-color: #ababab;
+    box-shadow: 0 2px 1px 0 #cfcfcf;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .range-controls .toggle-max {
+    left: 253px;
+  }
+  .price-controls {
+    display: flex;
+    margin-bottom: 18px;
+    border: 1px solid #ffffff;
+
+    background: transparent;
+  }
+
+  .filter__input-price {
+    position: relative;
+    width: 95px;
+    padding-top: 9px;
+    padding-right: auto;
+    padding-bottom: 9px;
+    padding-left: auto;
+    outline: none;
+
+    font-size: 14px;
+    font-weight: 21px;
+    text-align: right;
+    color: #ffffff;
+    border: none;
+    background: transparent;
+  }
+
+  .filter__input-price--min {
+    margin-right: 137px;
+
+  }
+
+  .filter__input-price:focus + .label-price,
+  .filter__input-price:active + .label-price {
+    display: none;
+  }
+  .filter__input-price--max {
+    width: 80px;
+    text-align: left;
+
+  }
+
+  .label-price {
+    position: absolute;
+    content: "";
+    top: 122px;
+    right: 34.6%;
+
+    font-size: 14px;
+    font-weight: 21px;
+
+    color: #ffffff;
+  }
+  .label-price--max {
+    right: 26.9%;
+  }
+  /* .filter__item-heading--price::after {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 22px;
+    top: 16%;
+    right: 35%;
+
+    color: #ffffff;
+  } */
