@@ -1,7 +1,7 @@
 .modal-search-hotels {
-  position: fixed;
-	top: 169px;
-  right: 507px;
+  position: absolute;
+	top: 284%;
+  right: 32%;
   z-index: 2;
 
 	display: none;

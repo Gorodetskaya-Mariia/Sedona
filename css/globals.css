@@ -38,6 +38,7 @@ p {
   color: #ffffff;
   background-color: #766357;
   border: 0;
+  cursor: pointer;
 }
 /* .page {
   width: 1200px;

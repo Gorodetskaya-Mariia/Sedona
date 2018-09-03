@@ -21,9 +21,10 @@
 @import url("../modal-search-hotels/button/switch/switch-plus--adults.css");
 @import url("../modal-search-hotels/button/switch/switch-plus--child.css");
 @import url("../modal-search-hotels/input/input.css");
+@import url("../modal-search-hotels/label/label.css");
 @import url("../modal-search-hotels/input/numbers/input--numbers.css");
 @import url("../modal-search-hotels/input/numbers/input--numbers_second.css");
-@import url("../modal-search-hotels/label/label.css");
+
 
 @import url("../footer-social/footer-social.css");
 @import url("../footer-social/footer-social--main.css");
