@@ -1,0 +1,22 @@
+.search-hotels__button {
+  display: block;
+  width: 568px;
+  padding-left: auto;
+  padding-right: auto;
+  padding-top: 30px;
+  padding-bottom: 29px;
+  margin: 0 auto;
+
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.search-hotels__button:hover,
+.search-hotels__button:focus {
+  background-color: #604e43;
+}
+
+.search-hotels__button:active {
+  background-color: #503e33;
+  color: #7e7169;
+}

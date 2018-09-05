@@ -1,0 +1,37 @@
+.copyrights {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  width: 200px;
+}
+
+.copyrights__text {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  text-transform: uppercase;
+
+  margin: auto 0;
+  padding: 0;
+}
+
+.copyrights__link {
+  width: 115px;
+  height: 41px;
+  margin: auto 0;
+  padding: 0;
+
+  background-image: url("logo_name.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.copyrights__link:hover,
+.copyrights__link:focus {
+  background-image: url("logo_name-focus.png");
+}
+
+.copyrights__link:active {
+  background-image: url("logo_name-active.png");
+}

@@ -1,0 +1,20 @@
+.hotels__name {
+  margin: 0;
+  margin-bottom: 7px;
+  padding: 0;
+
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.hotels__name:hover,
+.hotels__name:focus {
+  color: #81b3d2;
+  cursor: pointer;
+}
+
+.hotels__name:active {
+  color: #b2b2b2;
+  cursor: pointer;
+}

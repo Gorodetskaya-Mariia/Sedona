@@ -1,0 +1,52 @@
+
+.search-hotels__number-switch-plus {
+  position: absolute;
+  outline: none;
+
+  width: 38px;
+  height: 36px;
+
+  font-size: 0;
+
+  cursor: pointer;
+  background-image: url("plus.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #f2f2f2;
+  border: 0;
+}
+
+.search-hotels__number-switch-minus {
+  position: absolute;
+  outline: none;
+
+  width: 38px;
+  height: 36px;
+
+  font-size: 0;
+
+  cursor: pointer;
+  background-image: url("minus.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #f2f2f2;
+  border: 0;
+}
+
+.search-hotels__number-switch-minus:hover,
+.search-hotels__number-switch-minus:focus {
+  background-image: url("minus-focus.png");
+}
+
+.search-hotels__number-switch-minus:active {
+  background-image: url("minus-active.png");
+}
+
+.search-hotels__number-switch-plus:hover,
+.search-hotels__number-switch-plus:focus {
+  background-image: url("plus-focus.png");
+}
+
+.search-hotels__number-switch-plus:active {
+  background-image: url("plus-active.png");
+}

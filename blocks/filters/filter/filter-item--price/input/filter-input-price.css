@@ -1,0 +1,23 @@
+.filter__input-price {
+  position: relative;
+
+  width: 95px;
+  padding-top: 9px;
+  padding-right: auto;
+  padding-bottom: 9px;
+  padding-left: auto;
+  outline: none;
+
+  font-size: 14px;
+  font-weight: 21px;
+  text-align: right;
+  color: #ffffff;
+
+  border: none;
+  background: transparent;
+}
+
+.filter__input-price:focus + .label-price,
+.filter__input-price:active + .label-price {
+  display: none;
+}

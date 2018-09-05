@@ -1,0 +1,35 @@
+.filter-input-checkbox + .filter__name::after {
+  content: "";
+  position: absolute;
+  left: -43px;
+  top: -2px;
+
+  width: 23px;
+  height: 23px;
+
+  background-image: url("../../blocks/filters/filter/filter-item/input/checkbox-off.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.filter-input-checkbox:checked + .filter__name::after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -43px;
+
+  width: 27px;
+  height: 23px;
+
+  border: 0;
+  background-image: url("../../blocks/filters/filter/filter-item/input/checkbox-on.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.filter-input-checkbox + .filter__name:hover::before,
+.filter-input-checkbox + .filter__name:focus::before,
+.filter-input-checkbox + .filter__name:hover::after,
+.filter-input-checkbox + .filter__name:focus::after {
+  opacity: 1;
+}

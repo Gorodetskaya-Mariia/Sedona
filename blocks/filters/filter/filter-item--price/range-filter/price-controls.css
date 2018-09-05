@@ -1,0 +1,7 @@
+.price-controls {
+  display: flex;
+  margin-bottom: 18px;
+
+  border: 1px solid #ffffff;
+  background: transparent;
+}

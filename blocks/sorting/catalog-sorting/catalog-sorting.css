@@ -1,0 +1,12 @@
+.catalog-sorting {
+  width: 888px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+
+  text-transform: uppercase;
+}
+
+.catalog-sorting:last-child {
+  margin-right: auto;
+}

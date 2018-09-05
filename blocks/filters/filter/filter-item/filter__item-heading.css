@@ -1,0 +1,10 @@
+.filter__item-heading {
+  margin-bottom: 26px;
+
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+  
+  color: #ffffff;
+}

@@ -13,7 +13,7 @@
 
         <nav class="main-navigation">
             <a class="main-header-logo" href="index.html">
-              <img src="main-navigation/logo/logo.png" width="138" height="70" alt="Логотип «Sedona»">
+              <img src="blocks/main-navigation/logo/logo.png" width="138" height="70" alt="Логотип «Sedona»">
             </a>
             <div class="site-navigation">
                 <ul class="site-navigation-left">
@@ -22,7 +22,7 @@
                 </ul>
                 <ul class="site-navigation-right">
                     <li><a href="#">Карта штата</a></li>
-                    <li><a href="#">Гостиницы</a></li>
+                    <li class="site-navigation-current"><a>Гостиницы</a></li>
                 </ul>
             </div>
         </nav>
@@ -101,17 +101,17 @@
           <div class="catalog-sorting">
             <h3 class="catalog-sorting__heading">Сортировка:</h3>
                 <ul class="sorting-list">
-                      <li><a class="sorting-item-current">По цене</a></li>
+                      <li><a class="sorting-item--current">По цене</a></li>
                       <li><a class="sorting-item" href="#">По типу</a></li>
                       <li><a class="sorting-item" href="#">По рейтингу</a></li>
                       <li><a href="#" class="button-sorting-up"></a></li>
-                      <li><a href="#" class="button-sorting-down"></a></li>
+                      <li><a href="#" class="button-sorting-down button-sorting-down--current"></a></li>
                 </ul>
            </div>
     </section>
     <ul class="hotels__list">
       <li class="hotels__item">
-        <img class="hotels__image" src="hotels__list/hotel-amara.jpg" width="135" height="90" alt="Гостиница «Amara Resort & Spa»">
+        <img class="hotels__image" src="blocks/hotels__list/hotel-amara.jpg" width="135" height="90" alt="Гостиница «Amara Resort & Spa»">
         <section class="hotels__info">
           <h2 class="hotels__name">Amara Resort & Spa</h2>
           <dl class="hotel__info">
@@ -124,10 +124,10 @@
         </section>
         <div class="hotels__rate">
           <ul class="hotels__stars">
-            <li class="hotels__star"><img src="hotels__list/star.png" width="18" height="17" alt="Звезда"></li>
-            <li class="hotels__star"><img src="hotels__list/star.png" width="18" height="17" alt="Звезда"></li>
-            <li class="hotels__star"><img src="hotels__list/star.png" width="18" height="17" alt="Звезда"></li>
-            <li class="hotels__star"><img src="hotels__list/star.png" width="18" height="17" alt="Звезда"></li>
+            <li class="hotels__star"><img src="blocks/hotels__list/hotels__rate/star.png" width="18" height="17" alt="Звезда"></li>
+            <li class="hotels__star"><img src="blocks/hotels__list/hotels__rate/star.png" width="18" height="17" alt="Звезда"></li>
+            <li class="hotels__star"><img src="blocks/hotels__list/hotels__rate/star.png" width="18" height="17" alt="Звезда"></li>
+            <li class="hotels__star"><img src="blocks/hotels__list/hotels__rate/star.png" width="18" height="17" alt="Звезда"></li>
           </ul>
           <svg class="hotels__rate-backg"><rect width="110" height="27" fill="#f2f2f2"/></svg>
           <p class="hotels__rate-text">Рейтинг: 8,5</p>
@@ -135,7 +135,7 @@
         </div>
       </li>
       <li class="hotels__item">
-        <img class="hotels__image" src="hotels__list/hotel-desert.jpg" width="135" height="90" alt="Мотель «Desert Quail Inn»">
+        <img class="hotels__image" src="blocks/hotels__list/hotel-desert.jpg" width="135" height="90" alt="Мотель «Desert Quail Inn»">
         <section class="hotels__info">
           <h2 class="hotels__name">Desert Quail Inn</h2>
           <dl class="hotel__info">
@@ -148,17 +148,16 @@
         </section>
         <div class="hotels__rate">
           <ul class="hotels__stars">
-            <li class="hotels__star"><img src="hotels__list/star.png" width="18" height="17" alt="Звезда"></li>
-            <li class="hotels__star"><img src="hotels__list/star.png" width="18" height="17" alt="Звезда"></li>
-            <li class="hotels__star"><img src="hotels__list/star.png" width="18" height="17" alt="Звезда"></li>
+            <li class="hotels__star"><img src="blocks/hotels__list/hotels__rate/star.png" width="18" height="17" alt="Звезда"></li>
+            <li class="hotels__star"><img src="blocks/hotels__list/hotels__rate/star.png" width="18" height="17" alt="Звезда"></li>
+            <li class="hotels__star"><img src="blocks/hotels__list/hotels__rate/star.png" width="18" height="17" alt="Звезда"></li>
           </ul>
           <svg class="hotels__rate-backg"><rect width="110" height="27" fill="#f2f2f2"/></svg>
           <p class="hotels__rate-text">Рейтинг: 8,9</p>
-
         </div>
       </li>
       <li class="hotels__item">
-        <img class="hotels__image" src="hotels__list/hotel-villas.jpg" width="135" height="90" alt="Апартаменты «Villas At Poco Diablo»">
+        <img class="hotels__image" src="blocks/hotels__list/hotel-villas.jpg" width="135" height="90" alt="Апартаменты «Villas At Poco Diablo»">
         <section class="hotels__info">
           <h2 class="hotels__name">Villas At Poco Diablo</h2>
           <dl class="hotel__info">
@@ -171,8 +170,8 @@
         </section>
         <div class="hotels__rate">
           <ul class="hotels__stars">
-            <li class="hotels__star"><img src="hotels__list/star.png" width="18" height="17" alt="Звезда"></li>
-            <li class="hotels__star"><img src="hotels__list/star.png" width="18" height="17" alt="Звезда"></li>
+            <li class="hotels__star"><img src="blocks/hotels__list/hotels__rate/star.png" width="18" height="17" alt="Звезда"></li>
+            <li class="hotels__star"><img src="blocks/hotels__list/hotels__rate/star.png" width="18" height="17" alt="Звезда"></li>
           </ul>
           <svg class="hotels__rate-backg"><rect width="110" height="27" fill="#f2f2f2"/></svg>
           <p class="hotels__rate-text">Рейтинг: 9,2</p>
@@ -210,13 +209,8 @@
            </li>
           </ul>
           <div class="copyrights">
-              <p>Website by</p>
-              <a href="https://htmlacademy.ru/intensive/htmlcss"><span class="visually-hidden">HTML Academy</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="26.9" height="34.1" viewBox="0 0 26.943 34.09">
-                  <path d="M13.6 0h-.1L0 1.4v24.7l13.5 8 13.4-8V1.4L13.6 0zM25 12.1L13.5 5.3h-.2L2 12.1v-9L13.5 2 25 3.1v9zM13.4 6.8L25 13.5l-4.5 2.6-7-4.2v1.4l5.8 3.5-.8.6-5-3v1.4l3.8 2.3-.8.5-3-1.8v1.4l1.8 1-1.8 1.2L2 13.6l11.4-6.8zM1.9 15l11.4 7v1l-7.9-4.7v1.4l8 4.8v1.1l-8-4.7v1.4l8 4.8 8.2-4.8V17l3.4-2v10l-11.5 6.9-11.6-7v-9.8z"/>
-                </svg>
-              </a>
-              <b>html<br>academy</b>
+              <p class="copyrights__text">Website by</p>
+              <a href="https://htmlacademy.ru/intensive/htmlcss" class="copyrights__link"></a>
           </div>
         </div>
 

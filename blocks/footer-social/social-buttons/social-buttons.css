@@ -1,0 +1,11 @@
+.social-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 150px;
+  margin: 0;
+  margin-left: 33px;
+  padding: 0;
+
+  list-style: none;
+}

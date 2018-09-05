@@ -1,0 +1,11 @@
+.filters {
+  padding-top: 27px;
+  padding-right: 73px;
+  padding-bottom: 8px;
+  padding-left: 70px;
+
+  background-size: 100% 220%;
+  background-image: url("../../blocks/filters/filter/filter-background.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}

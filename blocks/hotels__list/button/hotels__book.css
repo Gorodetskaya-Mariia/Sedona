@@ -1,0 +1,13 @@
+.button--hotels__book {
+  width: 144px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.button--hotels__book:hover,
+.button--hotels__book:focus {
+  background-color: #604e43;
+}
+.button--hotels__book:active {
+  background-color: #503e33;
+  color: #695950;
+}

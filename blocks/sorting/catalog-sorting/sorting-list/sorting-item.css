@@ -1,0 +1,17 @@
+.sorting-item {
+  margin-right: 32px;
+
+  color: #c6c6c6;
+  border-bottom: 1px dashed #c6c6c6;
+}
+
+.sorting-item:hover,
+.sorting-item:focus {
+  color: #81b3d2;
+  border-bottom: 1px dashed #81b3d2;
+}
+
+.sorting-item:active {
+  color: #000000;
+  border-bottom: 1px dashed #000000;
+}

@@ -1,0 +1,38 @@
+.features {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding-top: 56px;
+}
+.features__heading {
+  max-width: 450px;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 28px;
+
+  text-transform: uppercase;
+  text-align: center;
+}
+.features__subtitle {
+  font-size: 14px;
+  line-height: 26px;
+
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+
+  color: #333333;
+}
+.features__list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

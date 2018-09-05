@@ -1,0 +1,3 @@
+.button-sorting-up--current::before  {
+  border-bottom-color: #81b3d2;
+}

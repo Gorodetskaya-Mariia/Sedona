@@ -1,0 +1,13 @@
+.content {
+  width: 100%;
+
+  padding-bottom: 34px;
+
+  border-bottom: 0.1px solid white;
+  background-color: #9ac2db;
+  background-image: url("../../blocks/content/background-photo.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 -55px;
+  background-origin: border-box;
+  background-size: 100%, cover;
+}

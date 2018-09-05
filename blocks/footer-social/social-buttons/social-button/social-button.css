@@ -1,0 +1,27 @@
+.social-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 46px;
+  height: 48px;
+
+  background-color: #81b3d2;
+}
+
+.social-button:hover,
+.social-button:focus {
+  background-color: #669ec0;
+
+  transition: 0.2s;
+}
+
+.social-button:active path {
+  fill: #81b3d2;
+  opacity: 0.3;
+  
+  transition: 0.2s;
+}
+
+.social-button:active {
+  background-color: #5496bd;
+}

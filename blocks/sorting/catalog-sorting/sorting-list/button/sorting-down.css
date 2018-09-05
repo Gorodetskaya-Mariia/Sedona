@@ -1,0 +1,25 @@
+.button-sorting-down {
+  position: relative;
+}
+
+.button-sorting-down::before {
+  content: "";
+  position: absolute;
+  left: 497px;
+  top: 5px;
+
+  width: 0;
+  height: 0;
+
+  border: 5px solid transparent;
+  border-top: 10px solid #cacaca;
+}
+
+.button-sorting-down:hover::before,
+.button-sorting-down:focus::before {
+  border-top-color: #000000;
+}
+
+.button-sorting-down:active::before {
+  border-top-color: #81b3d2;
+}

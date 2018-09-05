@@ -1,0 +1,10 @@
+.label-price {
+  position: absolute;
+  content: "";
+  top: 122px;
+  right: 34.6%;
+
+  font-size: 14px;
+  font-weight: 21px;
+  color: #ffffff;
+}

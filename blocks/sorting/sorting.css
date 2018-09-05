@@ -1,0 +1,12 @@
+.sorting {
+  display: flex;
+
+  margin: 0;
+  padding-top: 30px;
+  padding-right: 72px;
+  padding-bottom: 30px;
+  padding-left: 72px;
+
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+}

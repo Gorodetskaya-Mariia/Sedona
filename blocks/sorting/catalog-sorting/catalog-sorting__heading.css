@@ -1,0 +1,10 @@
+.catalog-sorting__heading {
+  width: 80px;
+  margin: 0 ;
+  margin-right: 35px;
+  padding: 0;
+
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}

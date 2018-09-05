@@ -1,0 +1,26 @@
+.main-footer {
+  position: relative;
+}
+
+.footer-social {
+  bottom: 0;
+
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 36px;
+  padding-bottom: 36px;
+  padding-left: 130px;
+  padding-right: 100px;
+
+  background-color: #fcfcfb;
+}
+
+.footer-social__text {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+
+  margin: auto 0;
+  padding: 0;
+}

@@ -13,7 +13,7 @@
 
         <nav class="main-navigation">
             <a class="main-header-logo">
-              <img src="main-navigation/logo/logo.png" width="138" height="70" alt="Логотип «Sedona»">
+              <img src="blocks/main-navigation/logo/logo.png" width="138" height="70" alt="Логотип «Sedona»">
             </a>
             <div class="site-navigation">
                 <ul class="site-navigation-left">
@@ -33,8 +33,8 @@
     <section class="content">
         <h1 class="visually-hidden">Welcome to the gorgeous Sedona!</h1>
         <q class="visually-hidden">Because the Grand Canyon sucks!</q>
-        <img class="content__image" src="content/content__image/welcome.png" width="458" height="352" alt="Sedona">
-        <img class="content__image-saw" src="content/content__image-saw/saw.png" width="1200" height="57" alt="saw">
+        <img class="content__image" src="blocks/content/content__image/welcome.png" width="458" height="352" alt="Sedona">
+        <img class="content__image-saw" src="blocks/content/content__image-saw/saw.png" width="1200" height="57" alt="saw">
     </section>
     <section class="features">
       <h2 class="features__heading">Седона &mdash; небольшой городок в аризоне, заслуживающий большего!</h2>
@@ -47,7 +47,7 @@
               <p class="feature__number">&mdash; №1 &mdash;</p>
               <p class="feature__text feature__text--significant">Седона &mdash; не аттракцион для туристов, там течет своя жизнь</p>
             </div>
-            <img class="feature__picture" src="features/feature-1.jpg" width="800" height="256" alt="Фото «Sedona»">
+            <img class="feature__picture" src="blocks/features/feature-1.jpg" width="800" height="256" alt="Фото «Sedona»">
           </div>
 
           <ul class="feature__sub-list">
@@ -80,7 +80,7 @@
         </li>
         <li class="feature">
           <div class="feature--significant">
-            <img class="feature__picture" src="features/feature-2.jpg" width="800" height="256" alt="Фото «Моста дьявола»">
+            <img class="feature__picture" src="blocks/features/feature-2.jpg" width="800" height="256" alt="Фото «Моста дьявола»">
             <div class="feature__info">
                 <h3 class="feature__heading">Там есть мост дьявола</h3>
                 <p class="feature__number">&mdash; №2 &mdash;</p>
@@ -146,13 +146,8 @@
            </li>
           </ul>
           <div class="copyrights">
-              <p>Website by</p>
-              <a href="https://htmlacademy.ru/intensive/htmlcss"><span class="visually-hidden">HTML Academy</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="26.9" height="34.1" viewBox="0 0 26.943 34.09">
-                  <path d="M13.6 0h-.1L0 1.4v24.7l13.5 8 13.4-8V1.4L13.6 0zM25 12.1L13.5 5.3h-.2L2 12.1v-9L13.5 2 25 3.1v9zM13.4 6.8L25 13.5l-4.5 2.6-7-4.2v1.4l5.8 3.5-.8.6-5-3v1.4l3.8 2.3-.8.5-3-1.8v1.4l1.8 1-1.8 1.2L2 13.6l11.4-6.8zM1.9 15l11.4 7v1l-7.9-4.7v1.4l8 4.8v1.1l-8-4.7v1.4l8 4.8 8.2-4.8V17l3.4-2v10l-11.5 6.9-11.6-7v-9.8z"/>
-                </svg>
-              </a>
-              <b>html<br>academy</b>
+              <p class="copyrights__text">Website by</p>
+              <a href="https://htmlacademy.ru/intensive/htmlcss" class="copyrights__link"></a>
           </div>
         </div>
 
@@ -161,12 +156,12 @@
         <h2 class="visually-hidden">Поиск гостиницы в Седоне</h2>
         <div class="search-hotels--wrapper">
           <label class="search-hotels__label" for="date-arrival">Дата заезда:</label>
-    			<input class="search-hotels__input" type="text" onfocus="(this.type='date')"
+    			<input class="search-hotels__input" type="text"
            onblur="(this.type='text')" name="arrival" id="date-arrival" placeholder="24 Апреля 2017">
         </div>
         <div class="search-hotels--wrapper">
     			<label class="search-hotels__label" for="date-departure">Дата выезда:</label>
-    			<input class="search-hotels__input" type="text" onfocus="(this.type='date')"
+    			<input class="search-hotels__input" type="text"
            onblur="(this.type='text')" name="departure" id="date-departure" placeholder="4 Июля 2017">
         </div>
 			<div class="search-hotels__numbers">
@@ -178,7 +173,7 @@
         </div>
         <div class="search-hotels--wrapper">
           <button class="search-hotels__number-switch-minus search-hotels__number-switch-minus--child" type="button"></button>
-    			<label class="search-hotels__label" for="number-child">Дети:</label>
+    			<label class="search-hotels__label search-hotels__label--numbers" for="number-child">Дети:</label>
     			<input class="search-hotels__input search-hotels__input--numbers search-hotels__input--numbers_second" type="number" name="childs" id="number-child" placeholder="0">
           <button class="search-hotels__number-switch-plus search-hotels__number-switch-plus--child" type="button"></button>
         </div>
