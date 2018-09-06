@@ -7,7 +7,7 @@
   width: 23px;
   height: 23px;
 
-  background-image: url("../../blocks/filters/filter/filter-item/input/checkbox-off.png");
+  background-image: url("../../../../../blocks/filters/filter/filter-item/input/checkbox-off.png");
   background-position: 0 0;
   background-repeat: no-repeat;
 }
@@ -22,7 +22,7 @@
   height: 23px;
 
   border: 0;
-  background-image: url("../../blocks/filters/filter/filter-item/input/checkbox-on.png");
+  background-image: url("../../../../../blocks/filters/filter/filter-item/input/checkbox-on.png");
   background-position: 0 0;
   background-repeat: no-repeat;
 }

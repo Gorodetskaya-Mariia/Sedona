@@ -31,3 +31,9 @@
 .range-controls .toggle-max {
   left: 253px;
 }
+
+.range-controls .toggle:hover,
+.range-controls .toggle:focus {
+  top: -11px;
+  border: 10px solid #ffffff;
+}
