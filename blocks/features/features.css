@@ -5,12 +5,13 @@
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
-  flex-direction: column;
+	flex-direction: column;
+	text-align: center;
   background-color: #ffffff;
   padding-top: 56px;
 }
 .features__heading {
-  max-width: 450px;
+  width: 450px;
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
