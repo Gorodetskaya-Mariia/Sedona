@@ -1,36 +1,43 @@
-
 .search-hotels__number-switch-plus {
   position: absolute;
   outline: none;
-
-  width: 38px;
-  height: 36px;
-
+  
+  width: 39px;
+  height: 39px;
+  
   font-size: 0;
-
+  
   cursor: pointer;
   background-image: url("plus.png");
   background-position: center;
   background-repeat: no-repeat;
   background-color: #f2f2f2;
   border: 0;
+  
+  -webkit-transition: background-image 0.3s;
+  -o-transition: background-image 0.3s;
+  transition: background-image 0.3s;
 }
 
 .search-hotels__number-switch-minus {
   position: absolute;
   outline: none;
-
-  width: 38px;
-  height: 36px;
-
+  
+  width: 39px;
+  height: 39px;
+  
   font-size: 0;
-
+  
   cursor: pointer;
   background-image: url("minus.png");
   background-position: center;
   background-repeat: no-repeat;
   background-color: #f2f2f2;
   border: 0;
+  
+  -webkit-transition: background-image 0.3s;
+  -o-transition: background-image 0.3s;
+  transition: background-image 0.3s;
 }
 
 .search-hotels__number-switch-minus:hover,
@@ -38,8 +45,9 @@
   background-image: url("minus-focus.png");
 }
 
-.search-hotels__number-switch-minus:active {
-  background-image: url("minus-active.png");
+.search-hotels__number-switch-minus.disabled,
+.search-hotels__number-switch-minus.disabled:hover {
+  background-image: url("minus.png");
 }
 
 .search-hotels__number-switch-plus:hover,
@@ -47,6 +55,7 @@
   background-image: url("plus-focus.png");
 }
 
-.search-hotels__number-switch-plus:active {
-  background-image: url("plus-active.png");
+.search-hotels__number-switch-plus.disabled,
+.search-hotels__number-switch-plus.disabled:hover {
+  background-image: url("plus.png");
 }

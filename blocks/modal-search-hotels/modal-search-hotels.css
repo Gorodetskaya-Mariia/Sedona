@@ -1,10 +1,9 @@
 .modal-search-hotels {
   position: absolute;
-	top: 213.8%;
-  right: 35%;
-  z-index: 2;
+  top: -118px;
+  right: calc((100% - 568px)/2);
 
-	display: none;
+  display: block;
   width: 568px;
   box-sizing: border-box;
   padding-top: 55px;
@@ -14,5 +13,10 @@
   margin-left: -480px;
 
   color: #000000;
-  background-color: #ffffff;
+	background-color: #ffffff;
+	z-index: -1;
+	opacity: 0;
+	-webkit-transition: top, opacity, 0.3s;
+    -o-transition: top, opacity, 0.3s;
+    transition: top, opacity, 0.3s;
 }

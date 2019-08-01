@@ -1,6 +1,8 @@
 .price-controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  margin-bottom: 18px;
+  margin-bottom: 30px;
 
   border: 1px solid #ffffff;
   background: transparent;

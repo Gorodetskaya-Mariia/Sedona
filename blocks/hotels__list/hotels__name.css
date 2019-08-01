@@ -6,15 +6,18 @@
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
+  
+  cursor: pointer;
+  -webkit-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
 }
 
 .hotels__name:hover,
 .hotels__name:focus {
   color: #81b3d2;
-  cursor: pointer;
 }
 
 .hotels__name:active {
   color: #b2b2b2;
-  cursor: pointer;
 }

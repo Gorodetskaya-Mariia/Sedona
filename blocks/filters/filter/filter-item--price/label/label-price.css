@@ -1,10 +1,11 @@
 .label-price {
-  position: absolute;
-  content: "";
-  top: 122px;
-  right: 34.6%;
-
+  width: 50%;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
   font-size: 14px;
-  font-weight: 21px;
   color: #ffffff;
+}
+
+.label-price--min {
+  padding-left: 40px;
 }

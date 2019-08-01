@@ -3,15 +3,13 @@
 
   color: #c6c6c6;
   border-bottom: 1px dashed #c6c6c6;
+  
+  -webkit-transition: border-bottom, color, 0.3s;
+  -o-transition: border-bottom, color, 0.3s;
+  transition: border-bottom, color, 0.3s;
 }
 
-.sorting-item:hover,
-.sorting-item:focus {
+.sorting-item:hover {
   color: #81b3d2;
   border-bottom: 1px dashed #81b3d2;
-}
-
-.sorting-item:active {
-  color: #000000;
-  border-bottom: 1px dashed #000000;
 }

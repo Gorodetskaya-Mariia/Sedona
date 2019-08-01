@@ -1,6 +1,11 @@
 .copyrights {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
 
   width: 200px;
@@ -25,6 +30,9 @@
   background-image: url("logo_name.png");
   background-position: 0 0;
   background-repeat: no-repeat;
+  -webkit-transition: background-image 0.3s;
+  -o-transition: background-image 0.3s;
+  transition: background-image 0.3s;
 }
 
 .copyrights__link:hover,

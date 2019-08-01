@@ -1,13 +1,22 @@
 .site-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   background-color: transparent;
 }
 
 .site-navigation-left,
 .site-navigation-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 
   width: 480px;
@@ -31,6 +40,11 @@
   text-transform: uppercase;
 
   color: #000000;
+  
+  cursor: pointer;
+  -webkit-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
 }
 
 .site-navigation-right a {
@@ -53,4 +67,11 @@
 
 .site-navigation-current a:not([href]) {
   color: #766357;
+  cursor: default;
+}
+
+a.disabled,
+a.disabled:hover {
+  color: #000000;
+  cursor: not-allowed;
 }

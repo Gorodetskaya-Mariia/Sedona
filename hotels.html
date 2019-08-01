@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <title>«Sedona»</title>
+    <meta name="viewport" content="width=1200, initial-scale=1">
     <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/nouislider.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
 
@@ -17,11 +19,11 @@
             </a>
             <div class="site-navigation">
                 <ul class="site-navigation-left">
-                      <li><a href="#">Информация</a></li>
-                      <li><a href="#">Фото и видео</a></li>
+                      <li><a href="#" class="disabled">Информация</a></li>
+                      <li><a href="#" class="disabled">Фото и видео</a></li>
                 </ul>
                 <ul class="site-navigation-right">
-                    <li><a href="#">Карта штата</a></li>
+                    <li><a href="#" class="disabled">Карта штата</a></li>
                     <li class="site-navigation-current"><a>Гостиницы</a></li>
                 </ul>
             </div>
@@ -32,7 +34,7 @@
   <main>
     <section class="filters">
           <h2 class="visually-hidden">Фильтр гостиниц</h2>
-          <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+          <form class="filter" method="get">
             <fieldset class="filter__item">
               <legend class="filter__item-heading">Инфраструктура:</legend>
               <ul class="filter__list">
@@ -76,21 +78,15 @@
             </fieldset>
             <fieldset class="filter__item filter__item--price">
               <legend class="filter__item-heading filter__item-heading--price">Стоимость в сутки (р):</legend>
-              <div class="range-filter">
                 <div class="price-controls">
-                  <input class="filter__input-price filter__input-price--min" name="min-price" id ="min-price" type="text" value="0">
-                  <label class="label-price label-price--min">от </label>
-                  <input class="filter__input-price filter__input-price--max" name="max-price" id="max-price" type="text" value="3000">
-                  <label class="label-price label-price--max">до </label>
+                    <label class="label-price label-price&#45;&#45;min">от
+                        <input type="number" id="input-with-keypress-0" class="filter__input-price filter__input-price&#45;&#45;min" name="min-price">
+                    </label>
+                    <label class="label-price label-price&#45;&#45;max">до
+                        <input type="number" id="input-with-keypress-1" class="filter__input-price filter__input-price&#45;&#45;max" name="max-price">
+                    </label>
                 </div>
-                <div class="range-controls">
-                  <div class="scale">
-                    <div class="bar"></div>
-                  </div>
-                  <a class="toggle toggle-min"></a>
-                  <a class="toggle toggle-max"></a>
-                </div>
-              </div>
+                <div id="steps-slider" class="noUi-target noUi-ltr noUi-horizontal"></div>
               <button type="submit" class="button button--filter">Показать</button>
             </fieldset>
 
@@ -215,5 +211,8 @@
         </div>
 
   </footer>
+  <script src="scripts/libs/wNumb.js"></script>
+  <script src="scripts/libs/nouislider.js"></script>
+  <script src="scripts/slider.js"></script>
 </body>
 </html>

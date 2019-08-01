@@ -1,25 +1,36 @@
 .social-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
   width: 46px;
   height: 48px;
 
   background-color: #81b3d2;
+  
+  -webkit-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  transition: background-color 0.3s;
 }
 
 .social-button:hover,
 .social-button:focus {
   background-color: #669ec0;
+}
 
-  transition: 0.2s;
+.social-button path {
+  -webkit-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s;
 }
 
 .social-button:active path {
   fill: #81b3d2;
   opacity: 0.3;
-  
-  transition: 0.2s;
 }
 
 .social-button:active {

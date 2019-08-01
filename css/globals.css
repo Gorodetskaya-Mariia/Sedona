@@ -14,7 +14,6 @@ body {
 }
 img {
   max-width: 100%;
-  /* height: auto; */
 }
 a {
   text-decoration: none;
@@ -39,9 +38,8 @@ p {
   background-color: #766357;
   border: 0;
   cursor: pointer;
+  
+  -webkit-transition: background-color, color, 0.3s;
+  -o-transition: background-color, color, 0.3s;
+  transition: background-color, color, 0.3s;
 }
-/* .page {
-  width: 1200px;
-
-  box-shadow: 0 0 60px -5px rgba(0,0,0, 0.2);
-} */

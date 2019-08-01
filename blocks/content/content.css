@@ -1,4 +1,5 @@
 .content {
+	position: relative;
   width: 100%;
 
   padding-bottom: 34px;
@@ -7,7 +8,6 @@
   background-color: #9ac2db;
   background-image: url("../../blocks/content/background-photo.jpg");
   background-repeat: no-repeat;
-  background-position: 0 -55px;
   background-origin: border-box;
   background-size: 100%, cover;
 }

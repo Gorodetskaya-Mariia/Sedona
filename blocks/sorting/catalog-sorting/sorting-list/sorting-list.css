@@ -1,4 +1,6 @@
 .sorting-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 0;
   margin-right: auto;

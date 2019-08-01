@@ -1,5 +1,8 @@
 .button-sorting-down {
   position: relative;
+  -webkit-transition: border-top-color 0.3s;
+  -o-transition: border-top-color 0.3s;
+  transition: border-top-color 0.3s;
 }
 
 .button-sorting-down::before {

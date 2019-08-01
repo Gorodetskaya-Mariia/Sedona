@@ -13,22 +13,16 @@
 
   color: #000000;
   background-color: #f2f2f2;
-  border: 0;
-}
-
-.search-hotels__input::placeholder {
-  font-size: 14px;
-  line-height: 26px;
-  font-weight: 700;
-
-  color: #000000;
+  border: 2px solid #f2f2f2;
+  cursor: pointer;
+  
+  -webkit-transition: background-color, border, 0.3s;
+  -o-transition: background-color, border, 0.3s;
+  transition: background-color, border, 0.3s;
 }
 
 .search-hotels__input:not(.search-hotels__input--numbers):hover,
-.search-hotels__input:not(.search-hotels__input--numbers):focus {
-  background-color: #ebebeb;
-}
-
+.search-hotels__input:not(.search-hotels__input--numbers):focus,
 .search-hotels__input:not(.search-hotels__input--numbers):active {
   background-color: #ffffff;
   border: 2px solid #e5e5e5;

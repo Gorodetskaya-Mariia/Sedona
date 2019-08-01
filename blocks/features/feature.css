@@ -21,6 +21,8 @@
 
 .feature--significant {
   width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 
   letter-spacing: 0;
@@ -50,7 +52,10 @@
 }
 
 .feature__sub-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
@@ -69,6 +74,30 @@
   margin: auto;
   margin-top: 60px;
   margin-bottom: 27px;
+}
+
+.feature__sub-icon.animate .path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  -webkit-animation: dash 5s linear alternate infinite;
+  animation: dash 5s linear alternate infinite;
+}
+
+@-webkit-keyframes dash {
+  from {
+    stroke-dashoffset: 1000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes dash {
+  from {
+    stroke-dashoffset: 1000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
 }
 
 .feature__sub-heading {

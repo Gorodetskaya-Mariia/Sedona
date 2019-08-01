@@ -1,5 +1,8 @@
 .button-sorting-up {
   position: relative;
+  -webkit-transition: border-bottom-color 0.3s;
+  -o-transition: border-bottom-color 0.3s;
+  transition: border-bottom-color 0.3s;
 }
 
 .button-sorting-up::before {
@@ -17,10 +20,10 @@
 }
 
 .button-sorting-up:hover::before,
-.button-sorting-up:focus::before   {
+.button-sorting-up:focus::before {
   border-bottom-color: #000000;
 }
 
-.button-sorting-up:active::before   {
+.button-sorting-up:active::before {
   border-bottom-color: #81b3d2;
 }

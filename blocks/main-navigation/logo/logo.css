@@ -4,5 +4,6 @@
   left: 531px;
 
   width: 138px;
-  height: 70px;
+  height: 75px;
+  z-index: 2;
 }

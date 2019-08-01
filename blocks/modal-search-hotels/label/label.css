@@ -8,6 +8,10 @@
   font-weight: 700;
 
   color: #000000;
+  
+  -webkit-transition: background-image 0.3s;
+  -o-transition: background-image 0.3s;
+  transition: background-image 0.3s;
 }
 
 .search-hotels__label:not(.search-hotels__label--numbers)::after {
@@ -15,13 +19,14 @@
   position: absolute;
   top: 3px;
   left: 427px;
-
+  
   width: 22px;
   height: 21px;
-
+  
   background-image: url("calendar.png");
   background-position: 0 0;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .search-hotels__label:not(.search-hotels__label--numbers):hover::after,

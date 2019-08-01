@@ -30,13 +30,8 @@
 @import url("../blocks/filters/filter/filter-item--price/filter-item--price.css");
 @import url("../blocks/filters/filter/filter-item--price/button/button--filter.css");
 @import url("../blocks/filters/filter/filter-item--price/input/filter-input-price.css");
-@import url("../blocks/filters/filter/filter-item--price/input/filter-input-price--max.css");
-@import url("../blocks/filters/filter/filter-item--price/input/filter-input-price--min.css");
 @import url("../blocks/filters/filter/filter-item--price/label/label-price.css");
-@import url("../blocks/filters/filter/filter-item--price/label/label-price--max.css");
 @import url("../blocks/filters/filter/filter-item--price/range-filter/price-controls.css");
-@import url("../blocks/filters/filter/filter-item--price/range-filter/range-controls.css");
-@import url("../blocks/filters/filter/filter-item--price/range-filter/range-filter.css");
 
 @import url("../blocks/hotels__list/hotel__info.css");
 @import url("../blocks/hotels__list/hotels__image.css");
