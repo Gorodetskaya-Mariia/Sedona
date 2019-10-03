@@ -7,14 +7,12 @@
 }
 
 .feature__heading {
-  max-width: 151px;
-
   margin: auto;
   margin-top: 46px;
   margin-bottom: 25px;
 
   font-size: 21px;
-  line-height: 21px;
+  line-height: 24px;
   font-weight: 700;
   text-align: center;
 }
